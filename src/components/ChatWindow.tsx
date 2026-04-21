@@ -5,7 +5,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { Phone, Video, MoreVertical, Paperclip, Smile, Send } from "lucide-react";
-import { auth, db } from "../lib/firebase"; // Yol düzəldildi
+import { auth, db } from "../../lib/firebase"; // Yol düzəldildi
 import {
   collection,
   query,
